@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("photos/tai-jyun-chang-580TcQCVJ_4-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    width:auto;
+    height: 800px;
+}
+h1{
+    font-family: "Playfair",serif;
+    font-size: 4rem;
+    font-weight: 800;
+    color: #113F67;
+    text-align: center;
+    margin-top: -25rem;
+    margin-bottom: 100px;
+    
+}
+.countdown-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-family: "Playfair",serif;
+    font-size: xx-large;
+    font-weight: 800;
+    color: #113F67;
+    text-align: center;
+    justify-content: space-between;
+}
+.big-text{
+    font-size: 6rem;
+    margin:0 2rem;
+    line-height: 1;
+    font-weight: bold;
+}
